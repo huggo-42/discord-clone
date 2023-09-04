@@ -1,3 +1,21 @@
+# Notes
+## Components
+- https://ui.shadcn.com/docs/components/accordion 
+- recommended using the CLI: `npx shadcn-ui@latest add button`
+    - using the CLI command it will copy/paste the component as the components.json config is set
+- can add new variants for components at /components/ui/{component_name}
+> how to override a class
+```tsx
+import { cn } from "@/lib/utils";
+
+<Button className={cn(
+    "bg-indigo-500",
+    state && "bg-red-500", // if state == true, override bg-
+)}>
+```
+
+---
+### Default readme
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
