@@ -53,6 +53,10 @@ import { cn } from "@/lib/utils";
 `npx prisma generate`
 `npx prisma db push`
 
+## Create a model to use through the app
+- for the API
+`npm i @prisma/client`
+
 
 ---
 ### Default readme
