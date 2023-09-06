@@ -1,4 +1,21 @@
 # Notes
+
+## Routes
+- to create a new route: create a new folder under app
+- **Organization folders**: (folder name)
+```bash
+app/
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── page.tsx
+└── (auth)
+    └── login
+        └── page.tsx
+    └── sign up
+        └── page.tsx
+```
+
 ## Components
 - https://ui.shadcn.com/docs/components/accordion 
 - recommended using the CLI: `npx shadcn-ui@latest add button`
